@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>वार्तालाप</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="images/favicon.ico" rel="icon">
+        <link href="images/apple-touch-icon.png" rel="apple-touch-icon">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section class="chat_section">
+            <div class="brand">
+                <img src="images/logo.png" width="30" alt="">
+                <h1>वार्तालाप</h1>  
+            </div>
+            <div class="message_area">
+                
+            </div>
+            <div>
+                <textarea id="textarea" cols="30" rows="1" placeholder="Write a message"></textarea>
+            </div>
+        </section>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="client.js" async defer></script>
+    </body>
+</html>
